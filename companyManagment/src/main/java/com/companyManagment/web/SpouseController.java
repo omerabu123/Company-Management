@@ -52,7 +52,7 @@ public class SpouseController {
 	}
 	
 	@PutMapping("updateSpouseName")
-	@ApiOperation("Update Spouse Details")
+	@ApiOperation("Update Spouse Name")
 	@ApiResponses(value = {@ApiResponse(code = 200, message = "OK",response = String.class)})
 	public ResponseEntity<Object> updateSpouse(@RequestParam("spouseID") int spouseID,@RequestParam("spouseName") String name){
 		try {

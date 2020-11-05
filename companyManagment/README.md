@@ -1,19 +1,23 @@
-היי ליאור, מצורפת מטלה מבוצעת.
+Hi lior, 
+This is the assignement.
 
+System path is localhost:8080/api includes Swagger, Actuator end points.
+ 
+About Junit and Mockito, the system does not contain many data changes in the Service layers, therefore there is not a lot of testing.
 
-כל המערכת מנותבת לlocalhost:8080/api גם EndPoints, Swagger.  
-בנוגע לJunit וMockito - לא ביצעתי הרבה טסטים כיוון שהמערכת לא מכילה הרבה עיבוד נתונים בשלבי הServices- ולא מצאתי יותר מדי שימוש.
-יצרתי actuator משלי למימוש של Health, תוכל למצוא אותו דרך  localhost:8080/api/actuator/myHealth .
+I created a custom endpoint for health called "myHealth"
+you can reach it within : 'localhost:8080/api/actuator/myHealth' .
 
-קישור לPostMan Collection :  
+Postman collection link:
 https://www.getpostman.com/collections/07f9caad87a202cf9afa
 
-קישור לאחזור Swagger : 
+Swagger JSON Link:
 https://www.getpostman.com/collections/3cf27879f866a4d2bef2
 
-בפעולת הוספת עובד Postman collection כבר קיים עובד אחד בתוך Body, הוספתי לך פה Json של עוד עובד למקרה שתרצה להוסיף.
- 
-עובד נוסף: 
+In Postman collection method 'Add employee' body, you can find one employee to add, here is another one ready to be used by JSON.
+
+
+Extra employee to add:
 
 {
   "adress": {
